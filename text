@@ -1,0 +1,8 @@
+
+- the connector needs to be in the right positions (how do you flex a rect)
+
+- the circles (connectorContainer) need to set over the border of the cards
+
+- use .map to render the cards
+
+- we need some logic that only renders a connector if it's the last card
