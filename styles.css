@@ -75,18 +75,10 @@ iframe {
   text-justify: inter-word;
 }
 
-.container{
-  margin-left: 60px;
-  margin-top: -100px;
-}
-
 .connectorContainer{
-  margin-top: 50px;
   display: inline-block;
 }
 
-.circleContainer{
-  height: 100%;
+.circleContainer1{
   display: flex;
-  align-items: flex-end;
 }
