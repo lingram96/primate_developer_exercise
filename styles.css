@@ -57,8 +57,9 @@ iframe {
 /* your styles here */
 
 .container{
-  justify-content: space-between;
-}
+  display: flex;
+  justify-content: center;
+} 
 
 .card{
   color: #f4f4f4;
@@ -80,5 +81,43 @@ iframe {
 }
 
 .circleContainer1{
+  height: 100%;
+  display: flex;
+  align-items: flex-end;
+}
+
+
+
+/* .component{
+  display: flex;
+  align-items: flex-center;
+  justify-content: flex-start;
+  padding: 50px;
+  min-height: 400px;
+}
+
+.circleContainer2{
+  height: 100%;
+  display: flex;
+  align-items: flex-start;
+}
+
+.circle{
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+
+.connectorContainer{
+  height: 100%;
+}
+
+.connector{
+  height: 100%;
   display: flex;
 }
+
+.connectorBody{
+  margin-bottom: 50px;
+  margin-top: 50px;
+  height: 100%;
+} */
