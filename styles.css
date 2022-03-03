@@ -61,6 +61,14 @@ iframe {
   justify-content: center;
 } 
 
+.component{
+  display: flex;
+  align-items: flex-center;
+  justify-content: flex-start;
+  padding: 50px;
+  min-height: 400px;
+}
+
 .card{
   color: #f4f4f4;
   background-color: #184269;
@@ -84,16 +92,6 @@ iframe {
   height: 100%;
   display: flex;
   align-items: flex-end;
-}
-
-
-
-/* .component{
-  display: flex;
-  align-items: flex-center;
-  justify-content: flex-start;
-  padding: 50px;
-  min-height: 400px;
 }
 
 .circleContainer2{
@@ -120,4 +118,4 @@ iframe {
   margin-bottom: 50px;
   margin-top: 50px;
   height: 100%;
-} */
+}
