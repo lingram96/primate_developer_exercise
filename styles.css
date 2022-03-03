@@ -58,8 +58,7 @@ iframe {
 
 .container{
   display: flex;
-  align-items: flex-center;
-  justify-content: flex-center;
+  justify-content: center;
 } 
 
 .component{
@@ -109,11 +108,11 @@ iframe {
 .connector{
   height: 100%;
   display: flex;
-  align-content: space-between;
 }
 
 .connectorBody{
   margin-bottom: 50px;
   margin-top: 50px;
+  height: 100%;
 }
 
