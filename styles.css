@@ -58,13 +58,12 @@ iframe {
 
 .container{
   display: flex;
-  align-items: flex-center;
-  justify-content: flex-center;
+  justify-content: space-between;
 } 
 
 .component{
   display: flex;
-  align-items: flex-center;
+  align-items:center;
   justify-content: flex-start;
   padding: 50px;
   min-height: 400px;
@@ -76,7 +75,7 @@ iframe {
   display: inline-flex;
   flex-flow: column nowrap;
   align-items: flex-start;
-  justify-content: flex-start;
+  justify-content: center;
   width: 20%;
   border: 2px solid black;
   border-radius: 8px;
@@ -113,7 +112,10 @@ iframe {
 }
 
 .connectorBody{
-  margin-bottom: 50px;
-  margin-top: 50px;
+  height: 100%;
 }
 
+.angle{
+  display: flex;
+  align-items: flex-end;
+}
