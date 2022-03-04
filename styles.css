@@ -57,7 +57,7 @@ iframe {
 /* your styles here */
 
 .container{
-  display: flex;
+  justify-content: space-between;
 }
 
 .card{
@@ -84,13 +84,3 @@ iframe {
   margin-top: 50px;
   display: inline-block;
 } 
-
-.circleContainer1{
-  display: flex;
-  align-items: flex-end;
-}
-
-.circleContainer2{
-  display: flex;
-  align-items: flex-start;
-}
